@@ -284,8 +284,8 @@ function ProductList({ onHomeClick }) {
                                     <div className='product-card' key={plantIndex}>
                                         <img 
                                             className='product-image'
-                                            src={category.image} // Display the plant image
-                                            alt={category.name} // Alt text for accessibility
+                                            src={plant.image} // Display the plant image
+                                            alt={plant.name} // Alt text for accessibility
                                         />
                                         <div className='product-title'> {plant.name}</div> {/* Display plant name */}
                                         <div className='product-description'> {plant.description} </div> {/* Display plant description */}
